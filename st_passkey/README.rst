@@ -20,7 +20,7 @@ Requirements
 Building and Running
 ********************
 
-This sample can be found under :zephyr_file:`samples/bluetooth/st_ble_sensor` in the
+This sample is based on :zephyr_file:`samples/bluetooth/st_ble_sensor` in the
 Zephyr tree.
 
 Open ST BLE Sensor app and click on "CONNECT TO A DEVICE" button to scan BLE devices.
