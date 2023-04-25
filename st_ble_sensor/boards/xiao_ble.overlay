@@ -1,0 +1,18 @@
+/* SPDX-License-Identifier: Apache-2.0
+ *
+ * Copyright (c) 2022 Nordic Semiconductor ASA
+ */
+
+/ {
+        gpio_keys {
+                compatible = "gpio-keys";
+                user_button: button {
+                        label = "User";
+                        gpios = <&gpio0 2 GPIO_ACTIVE_LOW>;
+                };
+        };
+
+        aliases {
+                sw0 = &user_button;
+        };
+};
