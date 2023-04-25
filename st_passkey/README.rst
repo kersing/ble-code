@@ -1,7 +1,7 @@
 .. _bluetooth-st_ble_sensor:
 
-Bluetooth: ST BLE Sensor Demo
-#############################
+Bluetooth: ST BLE Sensor Demo modified to use a Passkey
+#######################################################
 
 Overview
 ********
